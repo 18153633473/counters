@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="text">火箭队</string>
+    <string name="text2">湖人队</string>
     <string name="score">0</string>
     <string name="three">+3 POINTS</string>
     <string name="two">+2 POINTS</string>
