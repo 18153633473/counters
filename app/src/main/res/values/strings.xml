@@ -1,12 +1,18 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="editrate">编辑汇率</string>
     <string name="text">火箭队</string>
+    <string name="save">save</string>
     <string name="text2">湖人队</string>
     <string name="score">0</string>
     <string name="three">+3 POINTS</string>
     <string name="two">+2 POINTS</string>
     <string name="one">+1 POINT</string>
     <string name="reset">reset</string>
-    <string name="reset2">reset</string>
+    <string name="dollor">美元$</string>
+    <string name="Europe">欧元€</string>
+    <string name="Japan">日元￥</string>
+    <string name="consult">对应目标货币</string>
+    <string name="putin">请输入内容</string>
 
 </resources>

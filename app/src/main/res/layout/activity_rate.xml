@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RateActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/rmb"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:hint="@string/putin"
+        />
+
+    <TextView
+        android:id="@+id/show"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consult"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/dollor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dollor" />
+
+    <Button
+        android:id="@+id/europe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Europe" />
+
+    <Button
+        android:id="@+id/japan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Japan" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openOne"
+        android:text="@string/editrate" />
+
+
+</LinearLayout>
