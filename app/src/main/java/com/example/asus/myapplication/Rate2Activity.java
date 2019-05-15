@@ -36,6 +36,7 @@ public class Rate2Activity extends AppCompatActivity {
         bdl.putDouble("europerate",neweurope);
         bdl.putDouble("japanrate",newjapan);
         Log.i("aaa","newdollar:"+newdollar);
+        Log.i("ccc","newdollar:"+newjapan);
         Intent intent = getIntent();
         intent.putExtras(bdl);
         setResult(2,intent);
