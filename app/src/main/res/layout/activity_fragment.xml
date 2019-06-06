@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FrameActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_main"
+        android:layout_weight="10"
+        android:name="com.example.asus.myapplication.HomeFragment"
+        tools:layout="@layout/frame_home"></fragment>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_func"
+        android:layout_weight="10"
+        android:name="com.example.asus.myapplication.FuncFragment"
+        tools:layout="@layout/frame_func"></fragment>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_setting"
+        android:layout_weight="10"
+        android:name="com.example.asus.myapplication.SettingFragment"
+        tools:layout="@layout/frame_setting"></fragment>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:id="@+id/bottomGroup"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            style="@style/btn_style"
+            android:id="@+id/radioHome"
+            android:text="@string/首页"
+            />
+        <RadioButton
+            style="@style/btn_style"
+            android:id="@+id/radioFunc"
+            android:text="@string/功能"
+            />
+        <RadioButton
+            style="@style/btn_style"
+            android:id="@+id/radioSetting"
+            android:text="@string/设置"
+            />
+    </RadioGroup>
+
+</LinearLayout>
