@@ -18,11 +18,7 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Rate2Activity" />
         <activity android:name=".RateActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".RateCalActivity"
@@ -31,7 +27,11 @@
 
         </activity>
         <activity android:name=".ViewpageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".vote">
 
